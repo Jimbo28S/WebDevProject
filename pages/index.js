@@ -6,12 +6,12 @@ import Link from 'next/link';
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <div className="bg-red-600">
-        <h1 className="text-7xl">Calgary Zoo DB</h1>
+    <div className="">
+      <div className="flex flex-row w-full h-30 mb-10 bg-blue-500">
+        <h1 className="text-7xl ml-175 mt-7 text-orange-600">Calgary Zoo DB</h1>
       </div>
       
-      <main className="flex flex-col">
+      <main className="flex flex-col w-full items-center">
         
 
         <div className="flex flex-row flex-wrap h-250 w-450 border-2">
@@ -29,7 +29,7 @@ export default function Home() {
             </Link>
           </div>
 
-          <div className="flex w-75 h-75 bg-neutral-900 justify-center items-center m-18">
+          <div className="flex w-75 h-75 bg-neutral-900 justify-center items-center mt-18 mx-18">
             <Link href="/animals/bighornSheep">
               <div className="flex flex-col gap-10 w-75 h-75 items-center justify-center">
                 <text className="text-4xl text-yellow-500 mt-5">Bighorn Sheep</text>
