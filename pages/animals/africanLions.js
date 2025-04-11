@@ -12,7 +12,7 @@ export default function AfricanLions() {
       <header className="bg-gradient-to-r from-blue-600 to-blue-800 shadow-lg sticky top-0 z-10 py-8">
         <div className="container mx-auto px-4 flex items-center justify-between">
           {/* Back Button */}
-          <Link href="/">
+          <Link href="../home">
             <button className="flex items-center space-x-2 bg-white/20 hover:bg-white/30 text-white px-4 py-3 rounded-lg transition-all duration-300 transform hover:scale-105">
               <svg className="h-6 w-6" viewBox="0 0 20 20" fill="currentColor">
                 <path
@@ -153,23 +153,6 @@ export default function AfricanLions() {
 
           </div>
           
-        </div>
-        {/* Conservtion Section */}
-        <div className="mt-12 bg-white p-8 rounded-xl shadow-lg border border-blue-200">
-          <h2 className="text-3xl font-bold text-blue-800 mb-6 border-b-2 border-blue-100 pb-2">
-            Conservation Efforts
-          </h2>
-          <p className="text-lg text-gray-700 mb-6">
-            The Calgary Zoo participates in lion conservation through breeding
-            programs and partnerships with African wildlife preserves.Our lions
-            are part of a Species Survival Plan to maintain genetic divesity in
-            captive populations.
-          </p>
-          <button className="px-6 py-3 bg-yellow-600 text-white font-semibold rounded-lg transition-colors">
-            <Link href="https://youthforlions.org/how-you-can-help/">
-              Learn How You Can Help
-            </Link>
-          </button>
         </div>
       </div>
     </div>

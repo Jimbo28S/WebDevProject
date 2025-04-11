@@ -13,7 +13,7 @@ export default function Alpacas() {
         {/* Increased py-4 to py-8 */}
         <div className="container mx-auto px-4 flex items-center justify-between">
           {/* Back Button */}
-          <Link href="/">
+          <Link href="../home">
             <button className="flex items-center space-x-2 bg-white/20 hover:bg-white/30 text-white px-4 py-3 rounded-lg transition-all duration-300 transform hover:scale-105">
               <svg className="h-6 w-6" viewBox="0 0 20 20" fill="currentColor">
                 <path
